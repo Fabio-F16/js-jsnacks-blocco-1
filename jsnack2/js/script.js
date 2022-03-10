@@ -1,23 +1,20 @@
 console.log('js ok')
 
 
-// In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, 
-// chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
-
-
-const invitati = ['Elena', 'Marco', 'Alberto', 'Daniele', 'Diego', 'Fabio', 'Francesca']
-console.log(invitati)
-
-const yourName = prompt('Come ti chiami?').value
+// Crea un array vuoto.
+// Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array.
 
 
 
-if(invitati.lenght ){
+const numberArrey = [];
 
+for(let i = 0; i < 6; i++){
+    let number = parseInt(prompt("Inserisci un numero"));
+    
+    if(isNaN(number) != (number % 2)){
+        numberArrey.push(number);
+        console.log(numberArrey);
+    }
+    
 }
-
-
-
-
-
 
