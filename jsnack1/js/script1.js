@@ -4,7 +4,7 @@ console.log('js ok')
 // chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 
 
-const invitati = ['elena', 'Marco', 'Alberto', 'Daniele', 'Diego', 'Fabio', 'Francesca'];
+const invitati = ['Elena', 'Marco', 'Alberto', 'Daniele', 'Diego', 'Fabio', 'Francesca'];
 const yourName = prompt('Come ti chiami?');
 let presente = false;
 
