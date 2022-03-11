@@ -11,7 +11,7 @@ let nonPresente = false;
 
 if(yourName){
 
-    for (let i = 0; i < invitati.length; i ++){
+    for (let i = 0; i < invitati.length && !nonPresente; i ++){
         const validName = invitati[i];
 
         if(yourName === validName){
